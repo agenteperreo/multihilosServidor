@@ -27,6 +27,7 @@ public class GestorDeProcesos extends Thread{
         is = this.socket.getInputStream();
 
         String ip="", ruta;
+        String[] ips=new String[2];
 
         // 4 - Intercambiar datos con el cliente
         InputStreamReader isr = new InputStreamReader(is, "UTF-8");
@@ -40,12 +41,19 @@ public class GestorDeProcesos extends Thread{
         ruta=br.readLine();
         System.out.println(ruta);
         try {
+            //Si el archivos existe
             if (archivo.exists()) {
+                //Inicializamos el fileReader y el buffered reader
                 isr = new FileReader(archivo);
                 br = new BufferedReader(isr);
-                while((ip = br.readLine())!=ruta) {
 
+                while((ip = br.readLine())!=ruta) {
+                    ips=br.readLine().split("-");
                 }
+
+                bw.write(ips[1]);
+                bw.flush();
+
             }
         } finally {
             os.close();
