@@ -5,16 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="19b4af09-6308-40e7-9460-4a19426a2f6d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MultihilosConSocket.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ejercicio1/Cliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ejercicio1/GestorDeProcesos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ejercicio1/Servidor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ejercicio1/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ejercicio1/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ejercicio1/Servidor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ejercicio1/Servidor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +45,40 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RunManager" selected="Application.Cliente">
+    <configuration name="Cliente" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ejercicio1.Cliente" />
+      <module name="MultihilosConSocket" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ejercicio1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Servidor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ejercicio1.Servidor" />
+      <module name="MultihilosConSocket" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ejercicio1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Cliente" />
+        <item itemvalue="Application.Servidor" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -62,6 +89,7 @@
       <updated>1675935113531</updated>
       <workItem from="1675935114725" duration="650000" />
       <workItem from="1675936154715" duration="918000" />
+      <workItem from="1675947291209" duration="2143000" />
     </task>
     <servers />
   </component>

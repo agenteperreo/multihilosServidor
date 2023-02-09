@@ -12,7 +12,7 @@ public class Servidor {
         try {
             // 1 - Crear DatagramSocket y le indicamos el puerto
             System.out.println("(Servidor) Creando socket...");
-            socket = new DatagramSocket(49201);
+            socket = new DatagramSocket(41600);
 
             while (true) {
                 // 2 - Crear array de bytes que actuará de buffer
