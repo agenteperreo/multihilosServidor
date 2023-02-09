@@ -56,10 +56,10 @@ public class GestorDeProcesos extends Thread{
 
             }
         } finally {
-            br.close();
+            osw.close();
             bw.close();
-            os.close();
             is.close();
+            os.close();
         }
 
     }
