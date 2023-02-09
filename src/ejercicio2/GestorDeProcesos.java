@@ -56,6 +56,8 @@ public class GestorDeProcesos extends Thread{
 
             }
         } finally {
+            br.close();
+            bw.close();
             os.close();
             is.close();
         }
